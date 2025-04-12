@@ -21,6 +21,7 @@
 //    for($i = 2; $i <= sqrt($x); $i++){
 //        if($x % $i == 0){
 //            $prime = false;
+//            break;
 //        }
 //    }
 //}
