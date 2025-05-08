@@ -1,4 +1,6 @@
 <?php
+
+
 $number_people = isset($_POST["number_people"]) ? htmlspecialchars($_POST["number_people"]) : "";
 $name = isset($_POST["name"]) ? htmlspecialchars($_POST["name"]) : "";
 $surname = isset($_POST["surname"]) ? htmlspecialchars($_POST["surname"]) : "";
@@ -26,16 +28,5 @@ echo "<!DOCTYPE html>
         </body>
 
     </html>
-
-
-
-
-
-
-
-
-
 "
-
-
 ?>
