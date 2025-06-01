@@ -6,7 +6,7 @@
 </head>
 <body>
     <form method="POST" action="zadanie2.php">
-        <select name="number_people">
+        Number of people: <select name="number_people">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>

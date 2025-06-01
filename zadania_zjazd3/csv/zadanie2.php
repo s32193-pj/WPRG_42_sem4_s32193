@@ -15,7 +15,7 @@ fclose($file);
 
 if (isset($_POST["load"])) {
     if (file_exists("list.csv")) {
-        echo "<h2>Submitted Entries</h2><table style='border: 1px solid black; border-collapse: collapse;'>";
+        echo "<h2>Submitted Entries</h2><table style='border: 1px solid #bf1414; border-collapse: collapse;'>";
         $file = fopen("list.csv", "r");
         while (($data = fgetcsv($file)) !== false) {
             echo "<tr>";
