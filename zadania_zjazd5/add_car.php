@@ -7,11 +7,21 @@
 </head>
 <body>
 <form method="post">
-    Type: <input type="text" name="type">
-    Model: <input type="text" name="model">
-    Price: <input type="number" name="price">
-    Year: <input type="number" name="year">
-    Description: <input type="text" name="description">
+    Type: <label>
+        <input type="text" name="type">
+    </label>
+    Model: <label>
+        <input type="text" name="model">
+    </label>
+    Price: <label>
+        <input type="number" name="price">
+    </label>
+    Year: <label>
+        <input type="number" name="year">
+    </label>
+    Description: <label>
+        <input type="text" name="description">
+    </label>
     <button type="submit">Submit</button>
 
 

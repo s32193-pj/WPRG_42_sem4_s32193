@@ -10,9 +10,9 @@ $server = "localhost";
 try {
     $msql_connection = mysqli_connect($server, $username, $password, $database);
 
-    $querry = "SELECT * FROM cars ORDER BY year ASC";
+    $query = "SELECT * FROM cars ORDER BY year ASC";
 
-    $result = mysqli_query($msql_connection, $querry);
+    $result = mysqli_query($msql_connection, $query);
 
     echo "<table border='1' width='88%'>";
     echo "<tr><th>Typ</th><th>Model</th><th>Cena</th><th>Rok</th><th>Opis</th></tr>";

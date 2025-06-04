@@ -10,9 +10,9 @@ if(isset($_GET['id'])){
 
     $msql_connection = mysqli_connect($server, $username, $password, $database);
 
-    $querry = "SELECT * FROM cars WHERE id = '$car_id'";
+    $query = "SELECT * FROM cars WHERE id = '$car_id'";
 
-    $result = mysqli_query($msql_connection, $querry);
+    $result = mysqli_query($msql_connection, $query);
 
     if($result){
         $row = mysqli_fetch_assoc($result);

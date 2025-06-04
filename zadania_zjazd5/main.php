@@ -7,15 +7,15 @@ $server = "localhost";
 try {
     $msql_connection = mysqli_connect($server, $username, $password, $database);
 
-    $querry = "SELECT * FROM cars ORDER BY price ASC LIMIT 5";
+    $query = "SELECT * FROM cars ORDER BY price ASC LIMIT 5";
 
-    $querry_data = mysqli_query($msql_connection, $querry);
+    $query_data = mysqli_query($msql_connection, $query);
 
     echo "<table border='1' width='88%'>";
     echo "<tr><th>Typ</th><th>Model</th><th>Cena</th><th>Rok</th><th>Opis</th></tr>";
 
-    if($querry_data) {
-        while($row = mysqli_fetch_assoc($querry_data)) {
+    if($query_data) {
+        while($row = mysqli_fetch_assoc($query_data)) {
             echo "<tr>";
             echo "<td>" . $row['type'] . "</td>";
             echo "<td>" . $row['model'] . "</td>";
@@ -33,7 +33,6 @@ try {
     echo "connection failed, error: " . $e->getMessage();
 }
 
-?>
 
 
 

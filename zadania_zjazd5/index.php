@@ -13,13 +13,13 @@
     <table>
         <tr>
             <td>
-                <a href="main.php"> Strona glowna</a>
+                <a href="main.php"> Strona główna</a>
             </td>
             <td>
-                <a href="all_cars.php">Wszystkie samochody</a>
+                <a href="all_cars.php">Wszystkie psychodrama</a>
             </td>
             <td>
-                <a href="add_car.php">Dodaj samochod</a>
+                <a href="add_car.php">Dodaj samochód</a>
             </td>
         </tr>
 
